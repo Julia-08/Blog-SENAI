@@ -34,7 +34,7 @@ header{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -73,6 +73,7 @@ header nav ul{
 
 .articles{
     display: flex;
+    justify-content: center;
     padding: 40px 120px;
     gap: 40px;
     flex-wrap: wrap;
@@ -126,7 +127,7 @@ main{
     background-color: #dadbda;
 }
 
-article{
+.noticia{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -139,13 +140,13 @@ article{
     align-items: center;
 }
 
-h2{
+.titulo{
     font-weight: 900;
     font-size: 2em;
 }
 
 .news-highlight{
-    font-weight: lighter
+    font-weight: lighter;
     color: #0a111e;
 }
 
@@ -158,9 +159,7 @@ h2{
     line-height: 1.5;
     text-indent: 24px;
 }
-article.noticia{
-    align-items: center;
-}
+
 
 img{
     width: 100%;
